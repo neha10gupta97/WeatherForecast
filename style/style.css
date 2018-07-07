@@ -13,3 +13,18 @@ td:first-of-type, td:first-of-type > div{
   height: 200px;
   width: 250px;
 }
+
+.toast-msg-container{
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0,0,0,0.60);
+	padding: 10px 40px;
+	border-radius: 7px;
+	position: fixed;
+	bottom: 150px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 1em;
+	z-index: 10;
+	display: none;
+}
